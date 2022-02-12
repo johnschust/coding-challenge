@@ -1,0 +1,5 @@
+- Tests were created using chromedriver version 97.0.4692.71 (curent version of chrome at the time)
+- Page objects can be found in /src/main/java/pages/
+- Amazon.com tests are located in /src/test/java/TestAmazonShopping.java
+- bunnyHops(n) can be found in /src/main/java/Bunny.java
+- bunnyHops(n) has a test in /src/test/java/TestBunnyHops.java
