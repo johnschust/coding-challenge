@@ -9,7 +9,7 @@ import utils.ReportUtils;
 import java.util.List;
 import java.util.Objects;
 
-public class TestAmazonShopping extends BaseTest {
+public class TestAmazonShopping extends AmazonBaseTest {
 
     @Documentation(
             coverage = "Validates that at least 10 products are displayed after doing a simple Amazon search. " +

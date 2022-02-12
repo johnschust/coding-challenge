@@ -14,9 +14,9 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class BaseTest extends ReportUtils {
+public class AmazonBaseTest extends ReportUtils {
 
-    private final Logger logger = Logger.getLogger(BaseTest.class.getSimpleName());
+    private final Logger logger = Logger.getLogger(AmazonBaseTest.class.getSimpleName());
 
     protected WebDriver webDriver;
 
@@ -52,7 +52,7 @@ public class BaseTest extends ReportUtils {
 
     @AfterClass
     protected void afterClass() {
-//        webDriver.close();
+        webDriver.close();
     }
 
     private void logInfo(String message) {
